@@ -1,0 +1,6 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://worldcoin.org https://*.worldcoin.org; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://worldcoin.org https://*.worldcoin.org https://worldchain-mainnet.g.alchemy.com wss://worldchain-mainnet.g.alchemy.com; frame-src https://worldcoin.org https://*.worldcoin.org;
